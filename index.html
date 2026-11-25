@@ -73,15 +73,15 @@
 
     .progress-bar {
       height: 100%;
-      width: 35%;
+      width: 0%;
       background: #ffbf00;
       border-radius: 20px;
-      animation: loading 2.5s ease-in-out infinite alternate;
+      animation: loading 3s linear infinite;
     }
 
     @keyframes loading {
-      from { width: 15%; }
-      to { width: 90%; }
+      0%   { width: 0%; }
+      100% { width: 100%; }
     }
 
     .status {
